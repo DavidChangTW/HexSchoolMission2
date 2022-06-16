@@ -48,14 +48,98 @@ table {
     outline: 1px solid red;
 }    
 
-
+/* 主要CSS區域 */
+.wrap{
+	max-width: 1366px;
+	margin:0 auto;
+}
 
 .container{
     max-width: 1088px;
     padding: 0 20px;
     margin:0 auto;
+}
+
+/* header區 */
+.header{
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 835px 768px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navlogo a{
+    display: inline-block;
+    padding: 24px 0px;
+}
+
+.navbox a{
+    border-radius: 22px;
+    background:#FF5D50;
+    padding:8px 32px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+	text-decoration: none;
+}
+
+.navbox a:hover{
+    background:#fff;;
+    color: #FF5D50;
+    border:#FF5D50 1px solid;
+}
+
+.banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+.bannertitle{
+    text-align: left;
+    width:50%;
+    letter-spacing: 0;
+}
+.bannertitle h4{
+    color: #56c4c5;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
 
 }
+.bannertitle h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #221E1F;
+    
+}
+.bannertitle p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #221E1F;
+    
+}
+
+.banner img{
+    max-width:532px;
+    width:50%;	
+}
+
+
+
+/* main區 */
+
+
+/* footer區 */
 
 .footer-plan{
 	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg");
